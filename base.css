@@ -14,4 +14,7 @@ a:hover{
     display: inline;
     text-decoration: none;
     list-style-type:none;
+    border-style: double;
+    border: 3px;
+    border-color: lightblue;
 }
