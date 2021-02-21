@@ -1,0 +1,11 @@
+.title{
+    border: double 5px lightblue;
+}
+.red{
+    color:red;
+}
+.END{
+    color: red;
+    border: double 5px red;
+    text-align: center;
+}
