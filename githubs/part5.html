@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>パート5</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="git.css">
+    </head>
+    <body>
+        <h1 class="title">CSSの基本:1</h1>
+        今回は、「<b class="red">CSS</b>」についてです！<br>
+        <h3>CSSとは？</h3>
+        CSSとは、HTML中の文字を装飾する、言わばサイトの外組みのことです！<br>
+        <h3>例えば…</h3>
+        <div class="red">文字の色を変えたり、</div>
+        <div class="red-2">文字の背景色を変えたり…</div>
+        そんなことができます！<br>
+        <h3>CSSの書き方</h3>
+        CSSには、パート3で説明したように、<b class="kimidori">style</b>、または<b class="kimidori">link</b>で設定することができます！<br>
+        今回は、<b class="kimidori">link</b>の方を主流として説明していきます！<br>
+        まず、「test」という名前フォルダ名を作りましょう！<br>
+        そして、テキストエディタで、「base.css」というファイルを作って下の文章をコピペしましょう！<br>
+        <div class="sample">
+            body{<br>
+                color:red;<br>
+            }
+        </div>
+        これで保存して、次に「index.html」というファイルを作り、こう書きましょう！
+        <div class="sample">
+            &lt;!DOCTYPE html&gt;<br>
+            &lt;html&gt;<br>
+                &lt;head&gt;<br>
+                        &lt;title&gt;テスト&lt;/title&gt;<br>
+                        &lt;link rel="stylesheet" href="base.css"&gt;<br>
+                        &lt;meta charset="UTF-8"&gt;<br>
+                &lt;/head&gt;<br>
+                    &lt;body&gt;<br>
+                        あいうえおかきくけこさしすせそ  <br>
+                    &lt;/body&gt;<br>
+                &lt;/html&gt;<br>
+        </div>
+        これで、「あいうえおかきくけこさしすせそ」が赤くなりましたか？
+        なったら完成です！<br>
+        今回はこれで終わります！次回は「CSSの基本:2」です！
+        <h1 class="END">(ﾟ∀ﾟ)ﾏﾀﾈ</h1>
+        <a href="../index.html">ホームに戻る</a>
+        <a href="../github.html">目次へ戻る</a>
+    </body>
+</html>
